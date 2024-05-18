@@ -6,14 +6,14 @@ Welcome to the GitHub repository of our Master 1 engineering project at Faculté
 
 In this project, we compare two algorithms:
 
-- CMGAN: [GitHub Repository](https://github.com/ruizhecao96/CMGAN/tree/main/src/tools)
-  - This algorithm utilizes ...
-- Facebook Denoiser: [GitHub Repository](https://github.com/facebookresearch/denoiser?tab=readme-ov-file)
-  - Utilizing ...
+- CMGAN (2022): [GitHub Repository](https://github.com/ruizhecao96/CMGAN/tree/main/src/tools)
+  - Using a conformer-based metric generative adversarial network (CMGAN)
+- Facebook Denoiser (2020): [GitHub Repository](https://github.com/facebookresearch/denoiser?tab=readme-ov-file)
+  - Using a conformer-based metric generative adversarial network (CMGAN)
 
 ## Audio Specifications
 
-Both algorithms work on mono wave audio sampled at 16,000 Hz.
+Both algorithms work on mono wave audio sampled at 16000 Hz.
 
 ## CUDA Usage with CMGAN
 
@@ -30,18 +30,12 @@ For CMGAN, we have developed a demonstration app using Streamlit. Here is a vide
 To use this app:
 
 - For CMGAN with Streamlit (same app as the video):
-  - Navigate to `src_cmgan` and run the following command:
+  - Navigate to `src_cmgan` (or src_cmgan_no_cuda) and run the following command:
 
     ```bash
     streamlit run streamlitCMGAN.py
     ```
 
-- To use CMGAN without Streamlit:
-  - Run the following command with appropriate arguments:
-
-    ```bash
-    python evaluation.py --test_dir <> --model_path <path to the best ckpt>
-    ```
 
 ## Using Facebook Denoiser
 
@@ -54,4 +48,4 @@ To use Facebook Denoiser with Python:
 
 For CMGAN and Facebook Denoiser, mono WAV audio sampled at 16,000 Hz is required. The Streamlit app can automatically convert any WAV audio to the required format. If not, you can use online tools like Online Convert.
 
-Additionally, we provide comparisons for the same audio at the same SNR (Signal-to-Noise Ratio) between CMGAN, Facebook Denoiser, and other known denoisers like OpenVino and Nvidia Broadcast. It's worth noting that Nvidia Broadcast operates in real-time.
+Additionally, we provide comparisons for the same audio at the same SNR (Signal-to-Noise Ratio) between CMGAN, Facebook Denoiser, and other known denoisers like OpenVino (https://github.com/intel/openvino-plugins-ai-audacity/blob/main/README.md) and Nvidia Broadcast (https://www.nvidia.com/fr-be/geforce/broadcasting/broadcast-app/). It's worth noting that Nvidia Broadcast operates in real-time.
