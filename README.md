@@ -49,9 +49,9 @@ To use Facebook Denoiser with Python:
 For CMGAN and Facebook Denoiser, mono WAV audio sampled at 16,000 Hz is required. The Streamlit app can automatically convert any WAV audio to the required format. If not, you can use online tools like Online Convert.
 
 Additionally, we provide comparisons for the same audio at the same SNR (Signal-to-Noise Ratio) between CMGAN, Facebook Denoiser, and other known denoisers like OpenVino (https://github.com/intel/openvino-plugins-ai-audacity/blob/main/README.md) and Nvidia Broadcast (https://www.nvidia.com/fr-be/geforce/broadcasting/broadcast-app/). It's worth noting that Nvidia Broadcast operates in real-time.
-# Écouter des Extraits Audio
+## Écouter des Extraits Audio
 
-## echo_test
+### echo_test
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <div>
@@ -76,7 +76,7 @@ Additionally, we provide comparisons for the same audio at the same SNR (Signal-
     </audio>
   </div>
   <div>
-    <p>echo_noise&amp;echo_supp_nvidia.m4a</p>
+    <p>echo_noise&echo_supp_nvidia.m4a</p>
     <audio controls>
       <source src="comparaison_sample/echo_test/echo_noise&echo_supp_nvidia.m4a" type="audio/m4a">
       Votre navigateur ne supporte pas la balise audio.
@@ -98,7 +98,7 @@ Additionally, we provide comparisons for the same audio at the same SNR (Signal-
   </div>
 </div>
 
-## man+backgrnd._discussion_noise
+### man+backgrnd._discussion_noise
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <div>
@@ -208,7 +208,7 @@ Additionally, we provide comparisons for the same audio at the same SNR (Signal-
   </div>
 </div>
 
-## man+storm_noise
+### man+storm_noise
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <div>
@@ -304,7 +304,7 @@ Additionally, we provide comparisons for the same audio at the same SNR (Signal-
   </div>
 </div>
 
-## woman+bar_env_noise
+### woman+bar_env_noise
 
 <div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
   <div>
@@ -413,4 +413,3 @@ Additionally, we provide comparisons for the same audio at the same SNR (Signal-
     </audio>
   </div>
 </div>
-
