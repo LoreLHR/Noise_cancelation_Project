@@ -49,3 +49,368 @@ To use Facebook Denoiser with Python:
 For CMGAN and Facebook Denoiser, mono WAV audio sampled at 16,000 Hz is required. The Streamlit app can automatically convert any WAV audio to the required format. If not, you can use online tools like Online Convert.
 
 Additionally, we provide comparisons for the same audio at the same SNR (Signal-to-Noise Ratio) between CMGAN, Facebook Denoiser, and other known denoisers like OpenVino (https://github.com/intel/openvino-plugins-ai-audacity/blob/main/README.md) and Nvidia Broadcast (https://www.nvidia.com/fr-be/geforce/broadcasting/broadcast-app/). It's worth noting that Nvidia Broadcast operates in real-time.
+# Écouter des Extraits Audio
+
+## echo_test
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div>
+    <p>1.echo_original.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/1.echo_original.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>echo_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/echo_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>echo_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/echo_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>echo_noise&amp;echo_supp_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/echo_noise&echo_supp_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>echo_only_noise_sup_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/echo_only_noise_sup_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>echo_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/echo_test/echo_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+</div>
+
+## man+backgrnd._discussion_noise
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div>
+    <p>dischomme -5(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme -5(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme -5_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme -5_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme -5_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme -5_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme -5_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme -5_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme -5_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme -5_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 0(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 0(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 0_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 0_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 0_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 0_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 0_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 0_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 0_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 0_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 7(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 7(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 7_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 7_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 7_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 7_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 7_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 7_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>dischomme 7_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+backgrnd._discussion_noise/dischomme 7_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+</div>
+
+## man+storm_noise
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div>
+    <p>stormhomme -7(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme -7(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme -7_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme -7_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme -7_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme -7_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme -7_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme -7_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 0(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 0(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 0_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 0_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 0_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 0_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 0_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 0_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 0_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 0_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 7(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 7(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 7_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 7_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 7_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 7_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>stormhomme 7_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/man+storm_noise/stormhomme 7_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+</div>
+
+## woman+bar_env_noise
+
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+  <div>
+    <p>barfemme -2_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme -2_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme -7_(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme -7_(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme -7_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme -7_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme -7_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme -7_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme -7_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme -7_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 3_(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 3_(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 3_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 3_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 3_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 3_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 3_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 3_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 3_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 3_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 7_(snr)_noised.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 7_(snr)_noised.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 7_fb.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 7_fb.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 7_nvidia.m4a</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 7_nvidia.m4a" type="audio/m4a">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme 7_OpenVino.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme 7_OpenVino.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+  <div>
+    <p>barfemme7_cmgan.wav</p>
+    <audio controls>
+      <source src="comparaison_sample/woman+bar_env_noise/barfemme7_cmgan.wav" type="audio/wav">
+      Votre navigateur ne supporte pas la balise audio.
+    </audio>
+  </div>
+</div>
+
