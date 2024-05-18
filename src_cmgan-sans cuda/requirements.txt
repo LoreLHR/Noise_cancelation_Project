@@ -1,0 +1,17 @@
+numpy
+pyaudio
+sounddevice
+soundfile
+torchaudio
+torch
+librosa
+streamlit
+
+pydub
+natsort
+
+wave
+argparse
+io
+os
+time
