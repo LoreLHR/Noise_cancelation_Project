@@ -12,9 +12,9 @@ Welcome to the GitHub repository of our Master 1 engineering project at Faculté
 In this project, we compare two algorithms:
 
 - CMGAN (2022): [GitHub Repository](https://github.com/ruizhecao96/CMGAN/tree/main/src/tools)
-  - Using a conformer-based metric generative adversarial network (CMGAN)
+  - Uses Conformer-based metric generative adversarial network (CMGAN).
 - Facebook Denoiser (2020): [GitHub Repository](https://github.com/facebookresearch/denoiser?tab=readme-ov-file)
-  - Using a conformer-based metric generative adversarial network (CMGAN)
+  - Uses U-Net-based encoder-decoder architecture with skip-connections.
 
 ## Audio Specifications
 
