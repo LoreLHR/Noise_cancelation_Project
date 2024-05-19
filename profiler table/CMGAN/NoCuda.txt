@@ -10,4 +10,4 @@
 | aten::add       | 4.55%      | 1.907s   | 4.55%       | 1.907s    | 32.325ms     | 59         |
 | autres          | -          | -        | -           | -         | -            | -          |
 
-time from 20 to 60 seconds
+time from 12 to 55 seconds
