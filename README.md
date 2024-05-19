@@ -1,3 +1,8 @@
+<audio controls>
+  <source src="comparaison sample/echo_test/1.echo_original.wav" type="audio/wav">
+  Votre navigateur ne supporte pas la balise audio.
+</audio>
+
 # Noise Reduction with Neural Networks
 
 Welcome to the GitHub repository of our Master 1 engineering project at Faculté Polytechnique de Mons. We evaluate state-of-the-art open-source noise reduction techniques using neural networks.
