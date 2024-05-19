@@ -1,3 +1,4 @@
+Only significant : 
 | Name                    | Self CPU % | Self CPU | CPU total % | CPU total | CPU time avg | Self CUDA  | Self CUDA % | CUDA total | CUDA time avg | # of Calls |
 |-------------------------|------------|----------|-------------|-----------|--------------|------------|-------------|------------|---------------|------------|
 | aten::copy\_           | 20.56%     | 1.303s   | 20.56%      | 1.303s    | 9.238ms      | 431.621ms  | 6.17%       | 431.621ms  | 3.061ms       | 141        |
