@@ -1,3 +1,4 @@
+Only significant
 | Name            | Self CPU % | Self CPU | CPU total % | CPU total | CPU time avg | # of Calls |
 |-----------------|------------|----------|-------------|-----------|--------------|------------|
 | aten::mul       | 39.94%     | 16.754s  | 39.97%      | 16.765s   | 212.210ms    | 79         |
