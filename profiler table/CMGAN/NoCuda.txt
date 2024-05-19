@@ -9,5 +9,5 @@
 | aten::copy\_    | 5.94%      | 2.490s   | 5.94%       | 2.490s    | 11.859ms     | 210        |
 | aten::add       | 4.55%      | 1.907s   | 4.55%       | 1.907s    | 32.325ms     | 59         |
 | autres          | -          | -        | -           | -         | -            | -          |
-
-time from 12 to 55 seconds
+ 
+Self CPU time total: 41.948s
