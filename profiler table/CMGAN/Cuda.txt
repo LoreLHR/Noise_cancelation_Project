@@ -11,20 +11,4 @@
 | autres                  | 45.22%     | 2.868s   | 14.81%      | 940.405ms | N/A          | 3.937s     | 56.09%      | 3.937s     | N/A           | N/A        |
 
 Self CPU time total: 6.335s
-
-Self CUDA time total: 6.996s
-| Name                    | Self CPU % | Self CPU | CPU total % | CPU total | CPU time avg | Self CUDA  | Self CUDA % | CUDA total | CUDA time avg | # of Calls |
-|-------------------------|------------|----------|-------------|-----------|--------------|------------|-------------|------------|---------------|------------|
-| aten::copy\_           | 20.56%     | 1.303s   | 20.56%      | 1.303s    | 9.238ms      | 431.621ms  | 6.17%       | 431.621ms  | 3.061ms       | 141        |
-| aten::_convolution     | 9.51%      | 602.405ms| 18.86%      | 1.195s    | 27.783ms     | 1.550ms    | 0.02%       | 812.244ms  | 18.889ms      | 43         |
-| aten::convolution      | 8.63%      | 546.955ms| 27.49%      | 1.742s    | 40.503ms     | 189.000us  | 0.00%       | 812.433ms  | 18.894ms      | 43         |
-| aten::einsum           | 2.89%      | 183.383ms| 8.32%       | 527.107ms | 21.963ms     | 4.333ms    | 0.06%       | 1.151s     | 47.952ms      | 24         |
-| aten::native\_layer\_norm | 5.49%  | 348.077ms| 6.81%       | 431.345ms | 10.784ms     | 70.658ms   | 1.01%       | 113.323ms  | 2.833ms       | 40         |
-| aten::cudnn\_convolution | 2.84%  | 179.751ms| 3.09%       | 195.945ms | 5.598ms      | 616.623ms  | 8.81%       | 616.815ms  | 17.623ms      | 35         |
-| aten::instance\_norm   | 3.86%      | 244.539ms| 12.71%      | 804.843ms | 50.303ms     | 308.000us  | 0.00%       | 134.500ms  | 8.406ms       | 16         |
-| aten::to               | 0.00%      | 187.000us| 20.36%      | 1.290s    | 37.933ms     | 679.000us  | 0.01%       | 1.443ms    | 42.441us      | 34         |
-| autres                  | 45.22%     | 2.868s   | 14.81%      | 940.405ms | N/A          | 3.937s     | 56.09%      | 3.937s     | N/A           | N/A        |
-
-Self CPU time total: 6.335s
-
 Self CUDA time total: 6.996s
