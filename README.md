@@ -49,6 +49,10 @@ To use Facebook Denoiser with Python:
 
 For CMGAN and Facebook Denoiser, mono WAV audio sampled at 16,000 Hz is required. The Streamlit app can automatically convert any WAV audio to the required format. If not, you can use online tools like Online Convert.
 
+
+# Comparaison with samples (https://lorelhr.github.io/Noise_cancelation_Project/): 
+
 Additionally, we provide comparisons for the same audio at the same SNR (Signal-to-Noise Ratio) between CMGAN, Facebook Denoiser, and other known denoisers like OpenVino (https://github.com/intel/openvino-plugins-ai-audacity/blob/main/README.md) and Nvidia Broadcast (https://www.nvidia.com/fr-be/geforce/broadcasting/broadcast-app/). It's worth noting that Nvidia Broadcast operates in real-time.
+
 
 
